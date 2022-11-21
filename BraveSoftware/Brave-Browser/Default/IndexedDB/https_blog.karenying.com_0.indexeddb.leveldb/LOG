@@ -1,6 +1,0 @@
-2022/11/01-17:43:06.199 2af6 Creating DB /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_blog.karenying.com_0.indexeddb.leveldb since it was missing.
-2022/11/01-17:43:06.401 2af6 Reusing MANIFEST /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_blog.karenying.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/01-17:43:38.797 2af6 Level-0 table #5: started
-2022/11/01-17:43:38.847 2af6 Level-0 table #5: 1521 bytes OK
-2022/11/01-17:43:38.886 2af6 Delete type=0 #3
-2022/11/01-17:43:38.886 2af6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

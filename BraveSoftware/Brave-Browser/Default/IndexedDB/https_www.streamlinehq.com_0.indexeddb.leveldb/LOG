@@ -1,6 +1,0 @@
-2022/11/11-21:10:16.399 35ae Creating DB /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.streamlinehq.com_0.indexeddb.leveldb since it was missing.
-2022/11/11-21:10:16.499 35ae Reusing MANIFEST /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.streamlinehq.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/11-21:10:16.793 35ae Level-0 table #5: started
-2022/11/11-21:10:16.897 35ae Level-0 table #5: 1247 bytes OK
-2022/11/11-21:10:16.986 35ae Delete type=0 #3
-2022/11/11-21:10:16.986 35ae Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
