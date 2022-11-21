@@ -1,0 +1,14 @@
+# ignore ALL files on ANY directory
+slack/
+neofetch/
+BraveSoftware/
+astro/
+Min/
+menus/
+lvim/
+gtk-3.0/
+i3-alternating-layout/
+pulse/
+yay/
+configstore/
+gh/
