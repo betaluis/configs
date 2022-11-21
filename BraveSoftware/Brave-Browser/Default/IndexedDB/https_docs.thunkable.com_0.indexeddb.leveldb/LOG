@@ -1,0 +1,6 @@
+2022/11/11-22:59:22.970 4108 Creating DB /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.thunkable.com_0.indexeddb.leveldb since it was missing.
+2022/11/11-22:59:23.079 4108 Reusing MANIFEST /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.thunkable.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/11-22:59:42.081 41c0 Level-0 table #5: started
+2022/11/11-22:59:42.123 41c0 Level-0 table #5: 1750 bytes OK
+2022/11/11-22:59:42.158 41c0 Delete type=0 #3
+2022/11/11-22:59:42.158 41c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

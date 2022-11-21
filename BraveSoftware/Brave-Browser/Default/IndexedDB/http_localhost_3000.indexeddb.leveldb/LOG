@@ -1,0 +1,23 @@
+2022/11/19-21:53:17.704 3394 Reusing MANIFEST /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/MANIFEST-000001
+2022/11/19-21:53:17.704 3394 Recovering log #415
+2022/11/19-21:53:17.758 3394 Reusing old log /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/000415.log 
+2022/11/19-21:53:18.035 366d Level-0 table #421: started
+2022/11/19-21:53:18.085 366d Level-0 table #421: 17158 bytes OK
+2022/11/19-21:53:18.194 366d Delete type=0 #415
+2022/11/19-21:53:18.194 366d Manual compaction at level-0 from '\x00\x89\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x8a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/19-21:53:55.006 32a6 Compacting 1@1 + 1@2 files
+2022/11/19-21:53:55.045 32a6 Generated table #422@1: 42 keys, 3433 bytes
+2022/11/19-21:53:55.045 32a6 Compacted 1@1 + 1@2 files => 3433 bytes
+2022/11/19-21:53:55.082 32a6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/11/19-21:53:55.083 32a6 Delete type=2 #418
+2022/11/19-21:53:55.083 32a6 Delete type=2 #421
+2022/11/19-21:58:42.577 3b55 Level-0 table #424: started
+2022/11/19-21:58:42.628 3b55 Level-0 table #424: 12772 bytes OK
+2022/11/19-21:58:42.729 3b55 Delete type=0 #420
+2022/11/19-21:58:42.729 3b55 Manual compaction at level-0 from '\x00\x8a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x8b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/19-22:34:14.733 3ff3 Compacting 1@1 + 1@2 files
+2022/11/19-22:34:14.765 3ff3 Generated table #425@1: 40 keys, 1180 bytes
+2022/11/19-22:34:14.765 3ff3 Compacted 1@1 + 1@2 files => 1180 bytes
+2022/11/19-22:34:14.802 3ff3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/11/19-22:34:14.802 3ff3 Delete type=2 #422
+2022/11/19-22:34:14.802 3ff3 Delete type=2 #424

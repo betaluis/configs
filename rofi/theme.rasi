@@ -1,0 +1,53 @@
+window {
+	width: 30%;
+	height: 40%;
+}
+
+
+element {
+	padding: 20;
+	text-color: @fg;
+}
+
+element selected {
+	text-color: @fg-alt;
+}
+
+element-text {
+	background-color: inherit;
+	text-color: inherit;
+	vertical-align: 0.5;
+}
+
+element-icon {
+	size: 30;
+}
+
+entry {
+	background-color: @bg-alt;
+	padding: 20 0 20 12;
+	text-color: @fg;
+}
+
+inputbar {
+	children: [prompt, entry];
+}
+
+listview {
+	background-color: @bg;
+	columns: 1;
+	lines: 8;
+}
+
+mainbox {
+	background-color: @bg;
+	children: [inputbar, listview];
+}
+
+prompt {
+	text-color: @fg;
+	padding: 20;
+	background-color: @bg-alt;
+	enabled: true;
+	padding: 20 0 0 20;
+}

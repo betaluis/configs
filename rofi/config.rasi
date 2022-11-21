@@ -1,0 +1,26 @@
+configuration {
+	display-drun: "Applications:";
+	display-window: "Windows:";
+	drun-display-format: "{icon} {name}";
+	font: "Hack Nerd Font Medium 12";
+	modi: "window,run,drun";
+	show-icons: true;
+	icon-theme: "Papirun";
+}
+
+@theme "/home/luis/.config/rofi/theme.rasi"
+
+* {
+	bg: #151515;
+	bg-alt: #184e77;
+
+	fg: #e5e5e5;
+	fg-alt: #1E6091;
+
+	background-color: @bg;
+
+	border: 0;
+	margin: 0;
+	padding: 0;
+	spacing: 0;
+}

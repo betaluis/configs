@@ -1,0 +1,6 @@
+2022/11/19-00:20:10.352 598 Reusing MANIFEST /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hdokiejnpimakedhajhdlcegeplioahd_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/19-00:20:10.352 598 Recovering log #4
+2022/11/19-00:20:10.568 598 Reusing old log /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hdokiejnpimakedhajhdlcegeplioahd_0.indexeddb.leveldb/000004.log 
+2022/11/19-00:20:11.368 595 Level-0 table #8: started
+2022/11/19-00:20:11.782 595 Level-0 table #8: 2562708 bytes OK
+2022/11/19-00:20:12.111 595 Delete type=0 #4

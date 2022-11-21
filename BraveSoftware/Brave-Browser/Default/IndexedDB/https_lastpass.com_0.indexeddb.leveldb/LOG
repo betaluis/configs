@@ -1,0 +1,6 @@
+2022/11/08-11:30:21.323 3ad4 Creating DB /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lastpass.com_0.indexeddb.leveldb since it was missing.
+2022/11/08-11:30:21.533 3ad4 Reusing MANIFEST /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lastpass.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/09-11:23:10.930 3c42 Level-0 table #5: started
+2022/11/09-11:23:10.963 3c42 Level-0 table #5: 18368 bytes OK
+2022/11/09-11:23:10.999 3c42 Delete type=0 #3
+2022/11/09-11:23:10.999 3c42 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

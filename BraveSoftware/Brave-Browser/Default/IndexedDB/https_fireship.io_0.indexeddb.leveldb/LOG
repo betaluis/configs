@@ -1,0 +1,18 @@
+2022/11/11-23:52:00.698 48bb Creating DB /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fireship.io_0.indexeddb.leveldb since it was missing.
+2022/11/11-23:52:00.815 48bb Reusing MANIFEST /home/luis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fireship.io_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/11-23:52:01.217 4740 Level-0 table #5: started
+2022/11/11-23:52:01.259 4740 Level-0 table #5: 1284 bytes OK
+2022/11/11-23:52:01.326 4740 Delete type=0 #3
+2022/11/11-23:52:01.327 4740 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/11-23:52:05.136 489d Level-0 table #7: started
+2022/11/11-23:52:05.180 489d Level-0 table #7: 3256 bytes OK
+2022/11/11-23:52:05.219 489d Delete type=0 #4
+2022/11/11-23:52:05.219 489d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/11/11-23:52:05.219 489d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x01-\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x006\x006\x000\x005\x000\x004\x005\x000\x008\x001\x00:\x00w\x00e\x00b\x00:\x00d\x008\x007\x00a\x006\x003\x00b\x00d\x009\x004\x003\x00e\x003\x000\x003\x002' @ 174 : 1
+2022/11/11-23:52:05.219 489d Compacting 1@1 + 1@2 files
+2022/11/11-23:52:05.272 489d Generated table #8@1: 48 keys, 1685 bytes
+2022/11/11-23:52:05.272 489d Compacted 1@1 + 1@2 files => 1685 bytes
+2022/11/11-23:52:05.311 489d compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/11/11-23:52:05.311 489d Delete type=2 #5
+2022/11/11-23:52:05.311 489d Delete type=2 #7
+2022/11/11-23:52:05.311 489d Manual compaction at level-1 from '\x00\x04\x01\x02\x01-\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x006\x006\x000\x005\x000\x004\x005\x000\x008\x001\x00:\x00w\x00e\x00b\x00:\x00d\x008\x007\x00a\x006\x003\x00b\x00d\x009\x004\x003\x00e\x003\x000\x003\x002' @ 174 : 1 .. (end); will stop at (end)

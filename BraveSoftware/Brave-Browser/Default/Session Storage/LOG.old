@@ -1,0 +1,27 @@
+2022/11/15-18:33:21.114 3 Reusing MANIFEST /home/luis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2022/11/15-18:33:21.114 3 Recovering log #115
+2022/11/15-18:33:21.115 3 Reusing old log /home/luis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000115.log 
+2022/11/15-20:24:17.948 51 Level-0 table #119: started
+2022/11/15-20:24:17.993 51 Level-0 table #119: 18049 bytes OK
+2022/11/15-20:24:18.028 51 Delete type=0 #115
+2022/11/16-18:10:22.310 13b Level-0 table #121: started
+2022/11/16-18:10:22.351 13b Level-0 table #121: 21369 bytes OK
+2022/11/16-18:10:22.382 13b Delete type=0 #118
+2022/11/17-12:50:08.378 1c4 Level-0 table #123: started
+2022/11/17-12:50:08.488 1c4 Level-0 table #123: 20091 bytes OK
+2022/11/17-12:50:08.589 1c4 Delete type=0 #120
+2022/11/17-12:50:08.590 1c4 Compacting 4@0 + 1@1 files
+2022/11/17-12:50:08.632 1c4 Generated table #124@0: 4090 keys, 115460 bytes
+2022/11/17-12:50:08.632 1c4 Compacted 4@0 + 1@1 files => 115460 bytes
+2022/11/17-12:50:08.679 1c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/17-12:50:08.680 1c4 Delete type=2 #121
+2022/11/17-12:50:08.680 1c4 Delete type=2 #113
+2022/11/17-12:50:08.680 1c4 Delete type=2 #123
+2022/11/17-12:50:08.680 1c4 Delete type=2 #116
+2022/11/17-12:50:08.680 1c4 Delete type=2 #119
+2022/11/18-11:39:12.187 217 Level-0 table #126: started
+2022/11/18-11:39:12.236 217 Level-0 table #126: 38580 bytes OK
+2022/11/18-11:39:12.273 217 Delete type=0 #122
+2022/11/18-13:21:47.075 226 Level-0 table #128: started
+2022/11/18-13:21:47.111 226 Level-0 table #128: 20583 bytes OK
+2022/11/18-13:21:47.147 226 Delete type=0 #125
