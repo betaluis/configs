@@ -10,7 +10,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- Insert mode
-keymap('i', 'ht', '<ESC>', opts)
+keymap('i', 'jk', '<ESC>', opts)
 
 -- Do not yank with x
 keymap('n', "x", '"_x')
@@ -42,18 +42,19 @@ keymap('v', '<', '<gv', opts)
 keymap('v', '>', '>gv', opts)
 
 -- LSP
-keymap('n', '<leader>e', vim.diagnostic.open_float, opts)
-keymap('n', '[d', vim.diagnostic.goto_prev, opts)
-keymap('n', ']d', vim.diagnostic.goto_next, opts)
-keymap('n', '<leader>q', vim.diagnostic.setloclist, opts)
+keymap('n', '<leader>le', vim.diagnostic.open_float, opts)
+keymap('n', '<leader>lp', vim.diagnostic.goto_prev, opts)
+keymap('n', '<leader>ln', vim.diagnostic.goto_next, opts)
+keymap('n', '<leader>ll', vim.diagnostic.setloclist, opts)
 
 -- General
 keymap('n', '<leader>h', '<cmd>nohlsearch<CR>', opts) -- no highlight
-keymap('n', '<leader>,', '<cmd>w<CR>', opts) -- save
-keymap('n', '<leader>.', '<cmd>Ex<CR>', opts) -- netrw
-keymap('n', '<leader>;', '<cmd>q<CR>', opts) -- quit
+keymap('n', '<leader>w', '<cmd>w<CR>', opts) -- save
+keymap('n', '<leader>e', '<cmd>Ex<CR>', opts) -- netrw
+keymap('n', '<leader>e', '<cmd>Rex<CR>', opts) -- netrw
+keymap('n', '<leader>q', '<cmd>q<CR>', opts) -- quit
 
 -- Telescope
 local tl = require('telescope.builtin')
-keymap('n', '<leader>pp', tl.find_files, {})
-keymap('n', '<leader>pg', tl.live_grep, {})
+keymap('n', '<leader>ff', tl.find_files, {})
+keymap('n', '<leader>fg', tl.live_grep, {})
