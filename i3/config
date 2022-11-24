@@ -200,8 +200,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # Assign workspace to monitor
 workspace $ws1 output $bottom-left-monitor
 workspace $ws2 output $bottom-right-monitor
-workspace $ws3 output $top-left-monitor
-workspace $ws4 output $top-right-monitor
+workspace $ws3 output $top-right-monitor
+workspace $ws4 output $top-left-monitor
 
 # Assign apps to workspace
 assign [class="Spotify"] $ws4
