@@ -58,3 +58,13 @@ keymap('n', '<leader>q', '<cmd>q<CR>', opts) -- quit
 local tl = require('telescope.builtin')
 keymap('n', '<leader>ff', tl.find_files, {})
 keymap('n', '<leader>fg', tl.live_grep, {})
+
+-- Harpoon
+keymap('n', '<leader>ha', '<cmd>lua require("harpoon.mark").add_file()<CR>')
+keymap('n', '<leader>hh', '<cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>')
+keymap('n', '<leader>hj', '<cmd>lua require("harpoon.ui").nav_file(1)<CR>')
+keymap('n', '<leader>hk', '<cmd>lua require("harpoon.ui").nav_file(2)<CR>')
+keymap('n', '<leader>hl', '<cmd>lua require("harpoon.ui").nav_file(3)<CR>')
+keymap('n', '<leader>h;', '<cmd>lua require("harpoon.ui").nav_file(4)<CR>')
+keymap('n', '<leader>hn', '<cmd>lua require("harpoon.ui").nav_next()<CR>')
+keymap('n', '<leader>hp', '<cmd>lua require("harpoon.ui").nav_prev()<CR>')

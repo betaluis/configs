@@ -74,4 +74,7 @@ return packer.startup(function(use)
     -- Pretier
     use({ 'jose-elias-alvarez/null-ls.nvim', commit = '' })
     use({ 'MunifTanjim/prettier.nvim', commit = '' })
+
+    -- Harpoon
+    use({ 'ThePrimeagen/harpoon', commit = '' })
 end)
