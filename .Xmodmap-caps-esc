@@ -1,3 +1,5 @@
 clear lock
-keycode  66 = Escape NoSymbol Escape
+
+keycode 66 = Escape NoSymbol Escape
+keycode 133 = Control_R NoSymbol Control_R
 

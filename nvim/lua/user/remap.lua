@@ -10,7 +10,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- Insert mode
-keymap('i', 'jk', '<ESC>', opts)
+-- keymap('i', 'jk', '<ESC>', opts)
+keymap('i', 'ht', '<ESC>', opts)
 
 -- Do not yank with x
 keymap('n', "x", '"_x')
@@ -43,8 +44,8 @@ keymap('v', '>', '>gv', opts)
 
 -- LSP
 keymap('n', '<leader>le', vim.diagnostic.open_float, opts)
-keymap('n', '<leader>lp', vim.diagnostic.goto_prev, opts)
-keymap('n', '<leader>ln', vim.diagnostic.goto_next, opts)
+keymap('n', '<leader>lh', vim.diagnostic.goto_prev, opts)
+keymap('n', '<leader>lt', vim.diagnostic.goto_next, opts)
 keymap('n', '<leader>ll', vim.diagnostic.setloclist, opts)
 
 -- General
@@ -62,9 +63,9 @@ keymap('n', '<leader>fg', tl.live_grep, {})
 -- Harpoon
 keymap('n', '<leader>ha', '<cmd>lua require("harpoon.mark").add_file()<CR>')
 keymap('n', '<leader>hh', '<cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>')
-keymap('n', '<leader>hj', '<cmd>lua require("harpoon.ui").nav_file(1)<CR>')
-keymap('n', '<leader>hk', '<cmd>lua require("harpoon.ui").nav_file(2)<CR>')
-keymap('n', '<leader>hl', '<cmd>lua require("harpoon.ui").nav_file(3)<CR>')
-keymap('n', '<leader>h;', '<cmd>lua require("harpoon.ui").nav_file(4)<CR>')
+keymap('n', '<leader>h1', '<cmd>lua require("harpoon.ui").nav_file(1)<CR>')
+keymap('n', '<leader>h2', '<cmd>lua require("harpoon.ui").nav_file(2)<CR>')
+keymap('n', '<leader>h3', '<cmd>lua require("harpoon.ui").nav_file(3)<CR>')
+keymap('n', '<leader>h4', '<cmd>lua require("harpoon.ui").nav_file(4)<CR>')
 keymap('n', '<leader>hn', '<cmd>lua require("harpoon.ui").nav_next()<CR>')
 keymap('n', '<leader>hp', '<cmd>lua require("harpoon.ui").nav_prev()<CR>')

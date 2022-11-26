@@ -92,7 +92,8 @@ bindsym $mod+Shift+BackSpace exec --no-startup-id $reboot
  bindsym $mod+Shift+s exec --no-startup-id $suspend
 
 # kill focused window
-bindsym $mod+q kill
+# bindsym $mod+q kill
+bindsym $mod+semicolon kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
