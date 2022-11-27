@@ -52,11 +52,7 @@ return packer.startup(function(use)
     -- LSP
     use({ "neovim/nvim-lspconfig", commit = "" })
 
-    -- Telescope
-    use({ "nvim-lua/plenary.nvim", commit = "" })
-    use({ "nvim-telescope/telescope.nvim", commit = "" })
-
-    use({ "neovim/nvim-lspconfig", commit = "" })
+    -- CMP
     use({ "hrsh7th/cmp-nvim-lsp", commit = "" })
     use({ "hrsh7th/cmp-buffer", commit = "" })
     use({ "hrsh7th/cmp-path", commit = "" })
@@ -64,6 +60,15 @@ return packer.startup(function(use)
     use({ "hrsh7th/nvim-cmp", commit = "" })
     use({ "L3MON4D3/LuaSnip", commit = "" })
     use({ "saadparwaiz1/cmp_luasnip", commit = "" })
+
+    -- Mason
+    use({ "williamboman/mason.nvim", commit = "" })
+    use({ "williamboman/mason-lspconfig.nvim", commit = "" })
+    use({ "williamboman/nvim-lsp-installer", commit = "d6d564b21167161d85f41c2033ccc19a97b39a39" }) -- simple to use language server installer
+
+    -- Telescope
+    use({ "nvim-lua/plenary.nvim", commit = "" })
+    use({ "nvim-telescope/telescope.nvim", commit = "" })
 
     -- Treesitter
     use({ 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' })
@@ -77,4 +82,5 @@ return packer.startup(function(use)
 
     -- Harpoon
     use({ 'ThePrimeagen/harpoon', commit = '' })
+
 end)

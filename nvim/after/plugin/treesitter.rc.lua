@@ -18,6 +18,7 @@ ts.setup {
         'html',
         'astro',
         'javascript',
+        'rust',
     },
     autotag = {
         enable = true,

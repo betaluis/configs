@@ -36,3 +36,9 @@ nvim_lsp.emmet_ls.setup {
 nvim_lsp.tailwindcss.setup {
     on_attach = on_attach,
 }
+nvim_lsp.rust_analyzer.setup {
+    on_attach = on_attach,
+}
+nvim_lsp.taplo.setup {
+    on_attach = on_attach,
+}
