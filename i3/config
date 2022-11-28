@@ -155,15 +155,15 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Assign monitors
-set $bottom-left-monitor "DP-1"
-set $bottom-right-monitor "DP-2"
-set $top-left-monitor "DIV-D-1"
+set $middle-monitor "DP-1"
+set $right-monitor "DP-2"
+set $left-monitor "DIV-D-1"
 set $top-right-monitor "HDMI-1"
 
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1 broswer"
+set $ws1 "1 browser"
 set $ws2 "2 editor"
 set $ws3 "3"
 set $ws4 "4"
@@ -199,13 +199,17 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Assign workspace to monitor
-workspace $ws1 output $bottom-left-monitor
-workspace $ws2 output $bottom-right-monitor
-workspace $ws3 output $top-right-monitor
-workspace $ws4 output $top-left-monitor
+workspace $ws1 output $left-monitor
+workspace $ws2 output $middle-monitor
+workspace $ws3 output $right-monitor
+workspace $ws8 output $left-monitor
+workspace $ws9 output $middle-monitor
+workspace $ws10 output $right-monitor
+
+# workspace $ws4 output $top-left-monitor
 
 # Assign apps to workspace
-assign [class="Spotify"] $ws4
+assign [class="Spotify"] $ws0
 assign [class="package"] $ws2
 
 # Xampp default window style
