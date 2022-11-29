@@ -157,7 +157,7 @@ bindsym $mod+a focus parent
 # Assign monitors
 set $middle-monitor "DP-1"
 set $right-monitor "DP-2"
-set $left-monitor "DIV-D-1"
+set $left-monitor "DVI-D-1"
 set $top-right-monitor "HDMI-1"
 
 
@@ -209,7 +209,7 @@ workspace $ws10 output $right-monitor
 # workspace $ws4 output $top-left-monitor
 
 # Assign apps to workspace
-assign [class="Spotify"] $ws0
+assign [class="Spotify"] $ws10
 assign [class="package"] $ws2
 
 # Xampp default window style
