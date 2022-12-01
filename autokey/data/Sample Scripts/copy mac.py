@@ -1,2 +1,2 @@
-qq# Enter script code
-keyboard.send_keys('<ctrl>')
+# Enter script code
+keyboard.send_keys('<Backspace>')
