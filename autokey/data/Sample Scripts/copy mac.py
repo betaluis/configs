@@ -1,2 +1,2 @@
-# Enter script code
+qq# Enter script code
 keyboard.send_keys('<ctrl>')

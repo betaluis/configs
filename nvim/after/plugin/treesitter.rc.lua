@@ -19,6 +19,7 @@ ts.setup {
         'astro',
         'javascript',
         'rust',
+        'svelte',
     },
     autotag = {
         enable = true,
