@@ -11,7 +11,7 @@ vim.g.maplocalleader = " "
 
 -- Insert mode
 -- keymap('i', 'jk', '<ESC>', opts)
-keymap('i', 'ht', '<ESC>', opts)
+-- keymap('i', 'ht', '<ESC>', opts)
 
 -- Do not yank with x
 keymap('n', "x", '"_x')
@@ -53,7 +53,8 @@ keymap('n', '<leader>h', '<cmd>nohlsearch<CR>', opts) -- no highlight
 keymap('n', '<leader>w', '<cmd>w<CR>', opts) -- save
 keymap('n', '<leader>e', '<cmd>Ex<CR>', opts) -- netrw
 keymap('n', '<leader>e', '<cmd>Rex<CR>', opts) -- netrw
-keymap('n', '<leader>q', '<cmd>q<CR>', opts) -- quit
+keymap('n', '<leader>q', '<cmd>q!<CR>', opts) -- quit no save
+keymap('n', '<leader>;', '<cmd>zq<CR>', opts) -- quit
 
 -- Telescope
 local tl = require('telescope.builtin')
