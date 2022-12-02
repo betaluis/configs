@@ -18,8 +18,7 @@ local options = {
     smarttab = true,
     wrap = false,
 
-    backup = false,
-    clipboard = "unnamedplus", -- gives access to clipboard
+    clipboard = "", -- gives access to clipboard
     scrolloff = 8,
     sidescrolloff = 8,
     guifont = "monospace:h17",
@@ -31,6 +30,9 @@ local options = {
     colorcolumn = "80",
 
     swapfile = false, -- creates a swapfile
+    backup = false,
+    undodir = os.getenv("HOME") .. "/.vim/undodir",
+    undofile = true
 }
 
 for k, v in pairs(options) do

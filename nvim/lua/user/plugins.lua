@@ -83,4 +83,8 @@ return packer.startup(function(use)
     -- Harpoon
     use({ 'ThePrimeagen/harpoon', commit = '' })
 
+    -- Nvim tree
+    use({ "kyazdani42/nvim-tree.lua", commit = "" })
+
+    use({ "mbbill/undotree", commit = "" })
 end)

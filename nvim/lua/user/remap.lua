@@ -51,10 +51,25 @@ keymap('n', '<leader>ll', vim.diagnostic.setloclist, opts)
 -- General
 keymap('n', '<leader>h', '<cmd>nohlsearch<CR>', opts) -- no highlight
 keymap('n', '<leader>w', '<cmd>w<CR>', opts) -- save
-keymap('n', '<leader>e', '<cmd>Ex<CR>', opts) -- netrw
-keymap('n', '<leader>e', '<cmd>Rex<CR>', opts) -- netrw
 keymap('n', '<leader>q', '<cmd>q!<CR>', opts) -- quit no save
-keymap('n', '<leader>;', '<cmd>zq<CR>', opts) -- quit
+keymap('n', '<leader>;', 'ZZ', opts) -- quit
+keymap("i", "<C-c>", "<ESC>", opts)
+keymap("n", "<leader>o", "O", opts)
+keymap("n", "<leader>v", "V", opts)
+
+-- Nvim Tree
+keymap('n', '<leader>e', ":NvimTreeToggle<CR>", opts) -- netrw
+-- keymap('n', '<leader>e', '<cmd>Ex<CR>', opts) -- netrw
+-- keymap('n', '<leader>e', '<cmd>Rex<CR>', opts) -- netrw
+
+-- Greatest keymap : yank
+keymap("n", "<leader>y", "\"+y", opts)
+keymap("v", "<leader>y", "\"+y", opts)
+keymap("n", "<leader>Y", "\"+Y", { noremap = false })
+keymap("n", "<leader>p", "\"+p", opts)
+keymap("v", "<leader>p", "\"_dP", opts)
+keymap("n", "<leader>d", "\"_d", opts)
+keymap("v", "<leader>d", "\"_d", opts)
 
 -- Telescope
 local tl = require('telescope.builtin')
@@ -70,3 +85,6 @@ keymap('n', '<leader>h{', '<cmd>lua require("harpoon.ui").nav_file(3)<CR>')
 keymap('n', '<leader>h(', '<cmd>lua require("harpoon.ui").nav_file(4)<CR>')
 keymap('n', '<leader>hn', '<cmd>lua require("harpoon.ui").nav_next()<CR>')
 keymap('n', '<leader>hp', '<cmd>lua require("harpoon.ui").nav_prev()<CR>')
+
+-- Undotree
+keymap('n', '<leader>u', ':UndotreeToggle<CR>', opts)
