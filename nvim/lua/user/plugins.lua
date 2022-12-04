@@ -48,6 +48,8 @@ return packer.startup(function(use)
 
     -- My colorschemes
     use({ "EdenEast/nightfox.nvim", commit = "" })
+    use({ "ellisonleao/gruvbox.nvim", commit = "" })
+    use({ "catppuccin/nvim", as = "catppuccin", commit = "" })
 
     -- LSP
     use({ "neovim/nvim-lspconfig", commit = "" })
@@ -86,5 +88,9 @@ return packer.startup(function(use)
     -- Nvim tree
     use({ "kyazdani42/nvim-tree.lua", commit = "" })
 
+    -- Undotree
     use({ "mbbill/undotree", commit = "" })
+
+    -- Colorizer
+    use({ "norcalli/nvim-colorizer.lua", commit = "" })
 end)

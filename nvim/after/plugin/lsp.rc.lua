@@ -45,4 +45,6 @@ nvim_lsp.taplo.setup {
 nvim_lsp.svelte.setup {
     on_attach = on_attach,
 }
-
+nvim_lsp.astro.setup {
+    on_attach = on_attach,
+}
