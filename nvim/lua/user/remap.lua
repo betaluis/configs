@@ -54,6 +54,7 @@ keymap('n', '<leader>w', '<cmd>w<CR>', opts) -- save
 keymap('n', '<leader>q', '<cmd>q!<CR>', opts) -- quit no save
 keymap('n', '<leader>;', 'ZZ', opts) -- quit
 keymap("i", "<C-c>", "<ESC>", opts)
+keymap("n", "<C-c>", "<ESC>", opts)
 keymap("n", "<leader>o", "O", opts)
 keymap("n", "<leader>v", "V", opts)
 
