@@ -74,6 +74,7 @@ return packer.startup(function(use)
 
     -- Treesitter
     use({ 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' })
+    use({ "virchau13/tree-sitter-astro", commit = "" })
 
     -- Statusline
     use({ 'hoob3rt/lualine.nvim', commit = '' })
@@ -84,9 +85,6 @@ return packer.startup(function(use)
 
     -- Harpoon
     use({ 'ThePrimeagen/harpoon', commit = '' })
-
-    -- Nvim tree
-    use({ "kyazdani42/nvim-tree.lua", commit = "" })
 
     -- Undotree
     use({ "mbbill/undotree", commit = "" })

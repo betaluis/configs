@@ -48,3 +48,9 @@ nvim_lsp.svelte.setup {
 nvim_lsp.astro.setup {
     on_attach = on_attach,
 }
+nvim_lsp.html.setup {
+    on_attach = on_attach,
+}
+nvim_lsp.cssmodules_ls.setup {
+    on_attach = on_attach,
+}

@@ -1,5 +1,5 @@
-local colorscheme = "nightfox"
--- local colorscheme = "gruvbox"
+-- local colorscheme = "nightfox"
+local colorscheme = "gruvbox"
 -- local colorscheme = "catppuccin"
 
 -- vim.o.background = "dark"

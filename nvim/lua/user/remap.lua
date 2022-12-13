@@ -29,8 +29,10 @@ keymap('n', '<C-k>', '<C-w>k', opts)
 keymap('n', '<C-l>', '<C-w>l', opts)
 
 -- Move up and down
-keymap('n', '<C-d>', '<C-d><S-m>')
-keymap('n', '<C-u>', '<C-u><S-m>')
+keymap('n', '<C-d>', '<C-d>zz')
+keymap('n', '<C-u>', '<C-u>zz')
+keymap("n", "n", "nzzzv")
+keymap("n", "N", "Nzzzv")
 
 -- Resize with arrow keys
 keymap('n', '<Up>', ':resize +2<CR>', opts)
@@ -50,7 +52,7 @@ keymap('n', '<leader>ll', vim.diagnostic.setloclist, opts)
 
 -- General
 keymap('n', '<leader>h', '<cmd>nohlsearch<CR>', opts) -- no highlight
-keymap('n', '<leader>w', '<cmd>w<CR>', opts) -- save
+keymap('n', '<leader>,', '<cmd>w<CR>', opts) -- save
 keymap('n', '<leader>q', '<cmd>q!<CR>', opts) -- quit no save
 keymap('n', '<leader>;', 'ZZ', opts) -- quit
 keymap("i", "<C-c>", "<ESC>", opts)
@@ -58,8 +60,8 @@ keymap("n", "<C-c>", "<ESC>", opts)
 keymap("n", "<leader>o", "O", opts)
 keymap("n", "<leader>v", "V", opts)
 
--- Nvim Tree
-keymap('n', '<leader>e', ":NvimTreeToggle<CR>", opts) -- netrw
+-- netrw
+keymap("n", "<leader>ee", "<cmd>Lexplore %:p:h<CR>", opts)
 -- keymap('n', '<leader>e', '<cmd>Ex<CR>', opts) -- netrw
 -- keymap('n', '<leader>e', '<cmd>Rex<CR>', opts) -- netrw
 
