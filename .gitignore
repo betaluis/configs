@@ -11,5 +11,6 @@ i3-alternating-layout/
 pulse/
 yay/
 yarn/
+node_modules/
 configstore/
 gh/
