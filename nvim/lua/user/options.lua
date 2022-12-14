@@ -36,8 +36,15 @@ local options = {
     undofile = true
 }
 
+local globalOptions = {
+    mapleader = " ",
+    netrw_keepdir = 0,
+}
+
 for k, v in pairs(options) do
     vim.opt[k] = v
 end
 
-vim.g.mapleader = " "
+for k, v in pairs(globalOptions) do
+    vim.g[k] = v
+end
