@@ -61,33 +61,36 @@ keymap("n", "<leader>o", "O", opts)
 keymap("n", "<leader>v", "V", opts)
 
 -- netrw
-keymap("n", "<leader>ee", "<cmd>Lexplore %:p:h<CR>", opts)
--- keymap('n', '<leader>e', '<cmd>Ex<CR>', opts) -- netrw
--- keymap('n', '<leader>e', '<cmd>Rex<CR>', opts) -- netrw
+-- keymap("n", "<leader>ee", "<cmd>Lexplore %:p:h<CR>", opts)
+keymap('n', '<leader>ee', '<cmd>Ex<CR>', opts) -- netrw
+keymap('n', '<leader>ec', '<cmd>Rex<CR>', opts) -- netrw
 
--- Greatest keymap : yank
-keymap("n", "<leader>y", "\"+y", opts)
-keymap("v", "<leader>y", "\"+y", opts)
-keymap("n", "<leader>Y", "\"+Y", { noremap = false })
-keymap("n", "<leader>p", "\"+p", opts)
-keymap("v", "<leader>p", "\"_dP", opts)
-keymap("n", "<leader>d", "\"_d", opts)
-keymap("v", "<leader>d", "\"_d", opts)
+-- greatest remap ever
+vim.keymap.set("x", "<leader>p", [["_dP]])
+
+-- next greatest remap ever : asbjornHaland
+vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
+vim.keymap.set("n", "<leader>Y", [["+Y]])
+
+vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
 -- Telescope
 local tl = require('telescope.builtin')
-keymap('n', '<leader>ff', tl.find_files, {})
-keymap('n', '<leader>fg', tl.live_grep, {})
+keymap('n', '<leader>pf', tl.find_files, {})
+keymap('n', '<leader>pg', tl.git_files, {})
+keymap('n', '<leader>ps', function()
+    tl.grep_string({ search = vim.fn.input("Grep > ") });
+end)
 
 -- Harpoon
-keymap('n', '<leader>ha', '<cmd>lua require("harpoon.mark").add_file()<CR>')
-keymap('n', '<leader>hh', '<cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>')
-keymap('n', '<leader>ho', '<cmd>lua require("harpoon.ui").nav_file(1)<CR>')
-keymap('n', '<leader>he', '<cmd>lua require("harpoon.ui").nav_file(2)<CR>')
-keymap('n', '<leader>hu', '<cmd>lua require("harpoon.ui").nav_file(3)<CR>')
-keymap('n', '<leader>hi', '<cmd>lua require("harpoon.ui").nav_file(4)<CR>')
-keymap('n', '<leader>hn', '<cmd>lua require("harpoon.ui").nav_next()<CR>')
-keymap('n', '<leader>hp', '<cmd>lua require("harpoon.ui").nav_prev()<CR>')
+-- keymap('n', '<leader>ha', '<cmd>lua require("harpoon.mark").add_file()<CR>')
+-- keymap('n', '<leader>hh', '<cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>')
+-- keymap('n', '<leader>ho', '<cmd>lua require("harpoon.ui").nav_file(1)<CR>')
+-- keymap('n', '<leader>he', '<cmd>lua require("harpoon.ui").nav_file(2)<CR>')
+-- keymap('n', '<leader>hu', '<cmd>lua require("harpoon.ui").nav_file(3)<CR>')
+-- keymap('n', '<leader>hi', '<cmd>lua require("harpoon.ui").nav_file(4)<CR>')
+-- keymap('n', '<leader>hn', '<cmd>lua require("harpoon.ui").nav_next()<CR>')
+-- keymap('n', '<leader>hp', '<cmd>lua require("harpoon.ui").nav_prev()<CR>')
 
 -- Undotree
 keymap('n', '<leader>u', ':UndotreeToggle<CR>', opts)

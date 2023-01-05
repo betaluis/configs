@@ -91,4 +91,7 @@ return packer.startup(function(use)
 
     -- Colorizer
     use({ "norcalli/nvim-colorizer.lua", commit = "" })
+
+    -- Fugitive
+    use({ "tpope/vim-fugitive" })
 end)

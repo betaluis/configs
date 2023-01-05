@@ -25,9 +25,6 @@ vim.api.nvim_create_autocmd({ "Filetype" }, {
             nmap <buffer> l <CR>
             nmap <buffer> . gh
             nmap <buffer> P <C-w>z
-
-            nmap <buffer> <C-l> <CR>:Lexplore<CR>
-            nmap <buffer> <leader>ee :Lexplore<CR>
         ]]
     end
 })

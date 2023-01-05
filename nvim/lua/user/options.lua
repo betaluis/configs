@@ -38,7 +38,7 @@ local options = {
 
 local globalOptions = {
     mapleader = " ",
-    netrw_keepdir = 0,
+    -- netrw_keepdir = 0,
 }
 
 for k, v in pairs(options) do
